@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  width: 400px;
+  border: 1px solid black;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#block_page {
+  display: grid;
+  grid-template-rows: 2fr 1fr 3fr 1fr;
+  grid-template-columns: 1fr;
+  width: 95%;
+  height: 95%;
+  background: rgb(111, 217, 224);
+  border: 1px solid rgb(13, 49, 228);
+  /* margin: 10px auto ; */
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+
+header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background: rgb(162, 164, 21);
+  width: 95%;
+  height: 95%;
+  /* margin: 5px auto; */
+  border: 1px solid;
+  /* margin-top: 5px; */
+  padding: 5px;
+}
+
+#titre_principal {
+  background: rgb(226, 12, 16);
+  width: 20%;
+  height: 90%;
+  align-self: end;
+  border: 1px solid;
+}
+
+nav {
+  background: rgb(69, 55, 55);
+  width: 50%;
+  height: 45%;
+  align-self: end;
+  border: 1px solid;
+}
+
+#bannier_image {
+  box-sizing: border-box;
+
+  background: rgb(23, 46, 193);
+  width: 95%;
+  height: 95%;
+
+  border: 1px solid;
+}
+
+section {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+  
+  background: rgb(231, 175, 7);
+  width: 95%;
+  height: 95%;
+  border: 1px solid;
+  padding: 5px;
+}
+
+article {
+  box-sizing: border-box;
+  background: rgb(23, 46, 193);
+  width: 60%;
+  height: 100%;
+  border: 1px solid;
+}
+
+aside {
+    box-sizing: border-box;
+    background: rgb(197, 11, 92);
+    width: 35%;
+    height: 70%;
+    border: 1px solid; 
+    margin-left: 5px;
+}
+
+footer {
+    display: grid;
+    box-sizing: border-box;
+    background: rgb(231, 175, 7);
+    width: 95%;
+    height: 95%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#tweet {
+    box-sizing: border-box;
+    background: rgb(18, 8, 160);
+    width: 90%;
+    height: 90%;
+}
+#mes_photos {
+    box-sizing: border-box;
+    background: rgb(17, 190, 104);
+    width: 90%;
+    height: 90%;
+}
+#mes_amis {
+    box-sizing: border-box;
+    background: rgb(156, 31, 104);
+    width: 90%;
+    height: 90%;
+}
